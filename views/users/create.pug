@@ -1,0 +1,11 @@
+extend ../layout/layout1
+block content
+  h1 Create user
+  form(method="post")
+      .form-group
+            label(for="name") Name
+            input.form-control#name(type="text" name="name" )
+      .form-group
+            label(for="phoneNumber") Phone number
+            input.form-control#phoneNumber(type="text" name="phoneNumber")
+      button.btn.btn-primary Create
